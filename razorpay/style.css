@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  overflow-x: hidden;
+  padding: 0rem 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  background-image: url("bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1 {
+  color: aqua;
+  text-align: center;
+  margin: 1.5rem 0rem;
+}
+#rzp-button1 {
+  background-color: aqua;
+  cursor: pointer;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  margin-top: 10rem;
+}
